@@ -59,5 +59,13 @@ p,h1,h2 {
 .container {
     background-color: #0f4e76;
 }
-
+a:link {
+    color: #D99B9B;
+}
+a:visited {
+    color: pink;
+}
+a:hover {
+    color: white;
+}
 
