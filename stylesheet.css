@@ -14,7 +14,7 @@ body {
     color: white;
     text-decoration: underline;
 }
-p {
+p,h1,h2 {
     text-align: center;
 }
 .center {
@@ -28,9 +28,11 @@ p {
 .heading {
     text-decoration: underline;
     font-size: 70px;
+    font-weight: normal;
 }
 .name-1 {
     font-size: 112px;
+    font-weight: normal;
 }
 .accountPacks {
     display: flex;
