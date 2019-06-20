@@ -53,7 +53,8 @@ p,h1,h2 {
     display: inline-block;
     font-size: 50px;
     background-color: pink;
-    border-radius: 15px;
+    border-radius: 5px;
+    padding-left: 7px;
 }
 .container {
     background-color: #0f4e76;
