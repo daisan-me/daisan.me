@@ -43,6 +43,7 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 20px;
+  list-style: none;
 }
 .icon {
   height: 50px;
@@ -67,4 +68,5 @@ a:visited {
 a:hover {
   color: white;
 }
+
 
