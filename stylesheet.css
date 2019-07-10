@@ -16,6 +16,9 @@ body {
 .center-text {
   text-align: center;
 }
+.text-height {
+  line-height: 220%;
+}
 .center {
   transform: translate(-50%, -50%);
   margin: 80px 50% -130px;
