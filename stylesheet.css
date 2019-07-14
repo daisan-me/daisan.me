@@ -96,7 +96,7 @@ a:hover {
 }
 /*3つともリンクのある文字の色の調整*/
 
-@media screen and (max-width: 800px){
+@media (max-width: 800px) {
   html {
     overflow: auto;
   }
