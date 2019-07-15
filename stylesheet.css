@@ -95,7 +95,7 @@ a:hover {
   color: white;
 }
 /*3つともリンクのある文字の色の調整*/
-
+/*ここから先はSP版-----------------------------*/
 @media (max-width: 800px) {
   html {
     overflow: auto;
@@ -104,7 +104,7 @@ a:hover {
   body {
     font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
     /*フォントファミリー指定*/
-    letter-spacing: 7px;
+    letter-spacing: 2px;
     overflow: hidden;
     /*これがないと横にスクロールできてしまう*/
   }
@@ -124,20 +124,20 @@ a:hover {
     /*文字列を中央寄せにするため*/
   }
   .text-height {
-    line-height: 8000%;
+    line-height: 350%;
     /*自己紹介文の行の縦の間隔を開ける*/
   }
   .center {
     transform: translate(-50%, -50%);
-    margin: 80px 50% -130px;
+    margin: 80px 50% -80px;
     border-radius: 20px;
-    width: 150%;
-    height: 150%;
+    width: 160px;
+    height: 160px;
     /*3つともすべてオウムガイのアイコンの調整
     上から、画像の基準となる点を中央に、画像を中央に、角丸に*/
   }
   .account,.details {
-    font-size: 30px;
+    font-size: 15px;
     /*フォントサイズ指定*/
   }
   .heading {
@@ -148,7 +148,7 @@ a:hover {
     上から、下線、フォントサイズ、太字解除*/
   }
   .name-1 {
-    font-size: 112px;
+    font-size: 70px;
     font-weight: normal;
     /*一番上の大きなdaisan.me*/
   }
@@ -156,6 +156,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 40px;
     /*accountの並び方をflex-boxで調整
     上から、flex-boxにする、縦に並べる、横方向に中央寄せにする*/
   }
@@ -169,13 +170,13 @@ a:hover {
     上から、flex-boxにする、右から左に並べる、縦方向に中央寄せにする、20pxの幅を開ける、左の点を消す*/
   }
   .icon {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     /*アイコンの大きさを50*50にする*/
   }
   .initialD {
     display: inline-block;
-    font-size: 50px;
+    font-size: 30px;
     background-color: pink;
     border-radius: 5px;
     padding-left: 7px;
