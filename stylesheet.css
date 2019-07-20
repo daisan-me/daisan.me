@@ -6,7 +6,6 @@ body {
   font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
   /*フォントファミリー指定*/
   letter-spacing: 7px;
-  overflow: hidden;
   /*これがないと横にスクロールできてしまう*/
 }
 /*
@@ -29,8 +28,9 @@ body {
   /*自己紹介文の行の縦の間隔を開ける*/
 }
 .center {
-  transform: translate(-50%, -50%);
-  margin: 80px 50% -130px;
+  display: block;
+  transform:translateY(-20%);
+  margin: 0px auto;
   border-radius: 20px;
   /*3つともすべてオウムガイのアイコンの調整
   上から、画像の基準となる点を中央に、画像を中央に、角丸に*/
@@ -174,15 +174,10 @@ a:hover {
     width: 40px;
     /*アイコンの大きさを50*50にする*/
   }
-  .initialD {
-    display: inline-block;
-    font-size: 30px;
-    background-color: pink;
-    border-radius: 5px;
-    padding-left: 7px;
+  
     /*左下のDの調整
     インラインブロックにする、font-size指定、背景をpinkに、角丸5px、左のpaddingを7px*/
-  }
+  
   .container {
     background-color: #0f4e76;
     /*背景を紺色に*/
