@@ -11,11 +11,11 @@ body {
 /*
 フォントファミリーの指定、文字と文字の間隔を指定、
 */
-.pink {
+.main-font-color {
   color: #D99B9B;
   /*ピンクの文字を作るためのクラス*/
 }
-.name-2 {
+.local-font-color {
   color: white;
   /*daisanの文字列のためだけの白*/
 }
@@ -27,7 +27,7 @@ body {
   line-height: 220%;
   /*自己紹介文の行の縦の間隔を開ける*/
 }
-.center {
+.local-img-decoration {
   display: block;
   transform:translateY(-20%);
   margin: 0px auto;
@@ -46,7 +46,7 @@ body {
   /*見出しの調整
   上から、下線、フォントサイズ、太字解除*/
 }
-.name-1 {
+.top-name {
   font-size: 112px;
   font-weight: normal;
   /*一番上の大きなdaisan.me*/
@@ -111,7 +111,7 @@ a:hover {
     line-height: 350%;
     /*自己紹介文の行の縦の間隔を開ける*/
   }
-  .center {
+  .local-img-decoration {
     display: block;
     transform:translateY(-20%);
     margin: 0px auto;
@@ -132,7 +132,7 @@ a:hover {
     /*見出しの調整
     上から、下線、フォントサイズ、太字解除*/
   }
-  .name-1 {
+  .top-name {
     font-size: 60px;
     font-weight: normal;
     /*一番上の大きなdaisan.me*/
