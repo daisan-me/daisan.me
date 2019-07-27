@@ -95,55 +95,40 @@ a:hover {
   color: white;
 }
 /*3つともリンクのある文字の色の調整*/
-/*ここから先はSP版-----------------------------*/
+/*ここから先はSP版---------------------------------------------------------------------------*/
 @media (max-width: 800px) {
   body {
-    font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
-    /*フォントファミリー指定*/
     letter-spacing: 2px;
+    /*文字と文字の間隔を指定*/
     overflow: hidden;
     /*これがないと横にスクロールできてしまう*/
+    /*ダブリ調整済み*/
   }
-  /*
-  フォントファミリーの指定、文字と文字の間隔を指定、
-  */
   .text-height {
     line-height: 350%;
     /*自己紹介文の行の縦の間隔を開ける*/
   }
   .local-img-decoration {
-    display: block;
-    transform:translateY(-20%);
-    margin: 0px auto;
     border-radius: 15px;
     width: 160px;
     height: 160px;
     /*3つともすべてオウムガイのアイコンの調整
     上から、画像の基準となる点を中央に、画像を中央に、角丸に*/
+    /*ダブリ調整済み*/
   }
   .account,.details {
     font-size: 15px;
     /*フォントサイズ指定*/
   }
-  .heading {
-    text-decoration: underline;
-    font-size: 70px;
-    font-weight: normal;
-    /*見出しの調整
-    上から、下線、フォントサイズ、太字解除*/
-  }
   .top-name {
     font-size: 60px;
-    font-weight: normal;
-    /*一番上の大きなdaisan.me*/
+    /*一番上の大きなdaisan.me ダブリ調整済み*/
   }
   .accountPacks {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-right: 40px;
     /*accountの並び方をflex-boxで調整
     上から、flex-boxにする、縦に並べる、横方向に中央寄せにする*/
+    /*ダブリ調整済み*/
   }
   .icon {
     height: 40px;
