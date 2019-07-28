@@ -100,8 +100,6 @@ a:hover {
   body {
     letter-spacing: 2px;
     /*文字と文字の間隔を指定*/
-    overflow: hidden;
-    /*これがないと横にスクロールできてしまう*/
     /*ダブリ調整済み*/
   }
   .text-height {
