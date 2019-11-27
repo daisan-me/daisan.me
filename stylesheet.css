@@ -71,5 +71,43 @@ a:visited {
 a:hover {
   color: white;
 }
-
-
+/*3つともリンクのある文字の色の調整*/
+/*ここから先はSP版---------------------------------------------------------------------------*/
+@media (max-width: 800px) {
+  body {
+    letter-spacing: 2px;
+    /*文字と文字の間隔を指定*/
+    /*ダブリ調整済み*/
+  }
+  .text-height {
+    line-height: 350%;
+    /*自己紹介文の行の縦の間隔を開ける*/
+  }
+  .local-img-decoration {
+    border-radius: 15px;
+    width: 160px;
+    height: 160px;
+    /*3つともすべてオウムガイのアイコンの調整
+    上から、画像の基準となる点を中央に、画像を中央に、角丸に*/
+    /*ダブリ調整済み*/
+  }
+  .account,.details {
+    font-size: 15px;
+    /*フォントサイズ指定*/
+  }
+  .top-name {
+    font-size: 60px;
+    /*一番上の大きなdaisan.me ダブリ調整済み*/
+  }
+  .accountPacks {
+    margin-right: 40px;
+    /*accountの並び方をflex-boxで調整
+    上から、flex-boxにする、縦に並べる、横方向に中央寄せにする*/
+    /*ダブリ調整済み*/
+  }
+  .icon {
+    height: 40px;
+    width: 40px;
+    /*アイコンの大きさを40*40にする*/
+  }
+}
