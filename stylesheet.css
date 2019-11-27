@@ -1,6 +1,7 @@
 html {
 	overflow: auto;
 }
+
 body {
   font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
   letter-spacing: 7px;
@@ -104,6 +105,7 @@ a:hover {
     /*accountの並び方をflex-boxで調整
     上から、flex-boxにする、縦に並べる、横方向に中央寄せにする*/
     /*ダブリ調整済み*/
+    /*んがご*/
   }
   .icon {
     height: 40px;
