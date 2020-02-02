@@ -1,114 +1,83 @@
 html {
 	overflow: auto;
 }
-
 body {
-  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
-  letter-spacing: 7px;
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック','YuGothic','Yu Gothic','メイリオ','Meiryo','ＭＳ Ｐゴシック','MS PGothic';
   overflow: hidden;
-	min-width: 1080px;
+  min-width: 1080px;
+  background-color: #fb9;
+  margin: 0px;
 }
-.pink {
-  color: #D99B9B;
+.contents-spacer-1 {
+  margin-top: 50px;
+  margin-left: 50px;
 }
-.name-2 {
+.First-contents-box {
+  display: flex;
+  border: solid 1px darkgray;
+  width: 302px;
+}
+.Iam {
+  box-sizing: border-box;
+  background-color: lightgray;
+  font-size: 50px;
+  padding: 20px;
+  color: darkcyan;
+  border-top: solid 5px lightgray;
+  border-bottom: solid 5px lightgray;
+  border-left: solid 5px lightgray;
+  cursor: default;
+}
+.areYou {
+  box-sizing: border-box;
+  background-color: darkcyan;
+  font-size: 50px;
+  padding: 20px;
   color: white;
+  border-bottom: solid 5px lightgray;
+  border-right: solid 5px lightgray;
+  border-top: solid 5px lightgray;
+  cursor: default;
 }
-.center-text {
-  text-align: center;
+.Iam:hover {
+  color: lightgray;
 }
-.text-height {
-  line-height: 220%;
+.areYou:hover {
+  color: darkcyan;
 }
-.center {
-  transform: translate(-50%, -50%);
-  margin: 80px 50% -130px;
-  border-radius: 20px;
+/**2個目のコンテンツ**/
+.Second-contents-box {
+  box-sizing: border-box;
+  display: flex;
+  margin: 30px 0px 30px 0px;
+  background-color: lightgray;
+  width: 950px;
+  padding: 20px;
+  border: solid 1px darkgray;
 }
-.account,.details {
-	font-size: 30px;
+.myIcon {
+  width: 256px;
+  height: 256px;
+  border: solid 2px darkgray;
+  border-radius: 10px;
 }
-.heading {
-	text-decoration: underline;
-  font-size: 70px;
-  font-weight: normal;
-}
-.name-1 {
-  font-size: 112px;
-  font-weight: normal;
-}
-.accountPacks {
+.aboutMe {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 40px;
+  padding-left: 30px;
+  border-left: solid 5px darkcyan;
 }
-.account {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 20px;
-  list-style: none;
-}
-.icon {
-  height: 50px;
-  width: 50px;
-}
-.initialD {
-  display: inline-block;
-  font-size: 50px;
-  background-color: pink;
-  border-radius: 5px;
-  padding-left: 7px;
-}
-.container {
-  background-color: #0f4e76;
-}
-a:link {
-  color: #D99B9B;
-}
-a:visited {
-  color: pink;
-}
-a:hover {
+.summaryText {
+  box-sizing: border-box;
+  font-size: 20px;
+  margin: 0px;
+  background-color: darkcyan;
   color: white;
+  padding: 10px;
 }
-/*3つともリンクのある文字の色の調整*/
-/*ここから先はSP版---------------------------------------------------------------------------*/
+
 @media (max-width: 800px) {
-  body {
-    letter-spacing: 2px;
-    /*文字と文字の間隔を指定*/
-    /*ダブリ調整済み*/
-  }
-  .text-height {
-    line-height: 350%;
-    /*自己紹介文の行の縦の間隔を開ける*/
-  }
-  .local-img-decoration {
-    border-radius: 15px;
-    width: 160px;
-    height: 160px;
-    /*3つともすべてオウムガイのアイコンの調整
-    上から、画像の基準となる点を中央に、画像を中央に、角丸に*/
-    /*ダブリ調整済み*/
-  }
-  .account,.details {
-    font-size: 15px;
-    /*フォントサイズ指定*/
-  }
-  .top-name {
-    font-size: 60px;
-    /*一番上の大きなdaisan.me ダブリ調整済み*/
-  }
-  .accountPacks {
-    margin-right: 40px;
-    /*accountの並び方をflex-boxで調整
-    上から、flex-boxにする、縦に並べる、横方向に中央寄せにする*/
-    /*ダブリ調整済み*/
-  }
-  .icon {
-    height: 40px;
-    width: 40px;
-    /*アイコンの大きさを40*40にする*/
-  }
 }
