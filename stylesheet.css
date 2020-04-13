@@ -1,8 +1,10 @@
 html {
-	overflow: auto;
+  overflow: auto;
 }
 body {
-  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック','YuGothic','Yu Gothic','メイリオ','Meiryo','ＭＳ Ｐゴシック','MS PGothic';
+  font-family: "Avenir", "Helvetica Neue", "Helvetica", "Arial", "Hiragino Sans",
+    "ヒラギノ角ゴシック", "YuGothic", "Yu Gothic", "メイリオ", "Meiryo",
+    "ＭＳ Ｐゴシック", "MS PGothic";
   overflow: hidden;
   min-width: 1080px;
   background-color: #fb9;
@@ -78,6 +80,31 @@ body {
   color: white;
   padding: 10px;
 }
-
+.Third-contents-box {
+  box-sizing: border-box;
+  display: flex;
+  margin: 30px 0px 30px 0px;
+  background-color: lightgray;
+  width: 950px;
+  height: 302px;
+  padding: 20px;
+  border: solid 1px darkgray;
+}
+.summaryBox {
+  height: 260px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.summaryTextThird {
+  box-sizing: border-box;
+  font-size: 20px;
+  margin: 0px;
+  background-color: darkcyan;
+  color: white;
+  padding: 10px;
+  width: 854px;
+}
 @media (max-width: 800px) {
 }
